@@ -27,7 +27,7 @@ const Layout = () => {
 
       const res = await getAccessTokenWithPopup({
         authorizationParams: {
-          audience: "https://real-estate-app-rej5.vercel.app",
+          audience: "https://real-estate-app-rej5.vercel.app/api",
           scope: "openid profile email",
         },
       });
